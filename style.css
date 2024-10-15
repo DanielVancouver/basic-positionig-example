@@ -1,0 +1,113 @@
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.box1 li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    text-align: center;   
+}
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+.dropdown a {
+    color: lightseagreen;
+}
+
+.dropdown a:hover {
+    color: blue;
+}
+
+
+li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    margin: 0;
+    background: rgb(58, 57, 57);
+    border: 2px solid black;
+    padding: 0;
+    width: 100px;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+}
+
+.box1 {
+    display: inline-block;
+    background: black;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 3px solid black;
+}
+.header{
+    width: 100%;
+    padding: 40px 0;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    left: 0;
+
+}
+
+.first {
+    text-align: right;
+}
+
+.box2 {
+    float: left;
+    display: block;
+    background-color: white;
+    width: 85%;
+    height: 1000px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.box3 {
+    width: auto;
+    height: 1000px;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    padding-top: 10px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.box4 {
+    width: auto;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+}
+
+.box4 li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.totop{
+    position: fixed;
+    bottom: 10px;
+    
+}
